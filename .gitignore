@@ -1,0 +1,11 @@
+# Ignore any folder (at any depth) whose name starts with "_"
+_*/
+ 
+# Ignore files directly in the main (root) folder only -- not subfolders
+/*.json
+/*.html
+/*.png
+ 
+# Ignore the 'data' folder (at any depth) and everything inside it
+data/
+ 
